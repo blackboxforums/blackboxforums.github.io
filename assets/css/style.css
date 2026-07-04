@@ -97,7 +97,7 @@ header h1 a:hover {
 /* Post Style */
 
 div.post {
-  max-width: 80%;
+  max-width: 95%;
   padding: 2rem;
   background-color: var(--post-bg);
   border-radius: 8px;
