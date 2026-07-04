@@ -5,7 +5,7 @@ subforum: General
 ---
 
 <div class="post">
-<div class="post-title"> Struggling with moving to a new city </div>
+<div class="post-title" markdown="1"> Struggling with moving to a new city </div>
 
 Hey guys. I don't post often and this is gonna be a bit of a longer post, but idrc anymore so i'm just gonna ramble for a bit.
 
