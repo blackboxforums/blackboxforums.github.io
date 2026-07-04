@@ -28,6 +28,10 @@ body {
   line-height: 1.6;
 }
 
+body p {
+  margin: 0.5em;
+}
+
 .title { 
   text-align: center; 
   font-size: 2.5em; 
@@ -102,7 +106,6 @@ div.post {
 div.post div.post-title {
   color: var(--accent-color);
   font-size: 1.5em;
-  padding: 1em;
   text-align: left;
   text-decoration: underline;
 }
