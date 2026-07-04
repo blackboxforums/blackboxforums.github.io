@@ -6,7 +6,7 @@ subforum: General
 
 <div class="post">
 <div class="post-title"> Struggling with moving to a new city </div>
-  
+
 Hey guys. I don't post often and this is gonna be a bit of a longer post, but idrc anymore so i'm just gonna ramble for a bit.
 
 I graduated a few months ago with a degree in IT. Had pretty much no opportunities where I lived, so I moved to this small city in Ohio called Ingleby Harbor to work with my college buddy as tech for the county data center. Nobody knows how anything works, so its basically just troubleshooting people's email and fixing the Wifi when it goes down. Honestly it's nice to turn off my brain, but after work I kinda just feel empty.
