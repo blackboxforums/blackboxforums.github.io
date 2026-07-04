@@ -87,7 +87,7 @@ header {
 header h1 a,
 header h1 a:visited,
 header h1 a:hover {
-  color: var(--header-color) !important;
+  color: var(--header-color);
 }
 
 /* Post Style */
