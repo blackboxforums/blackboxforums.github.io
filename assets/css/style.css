@@ -21,7 +21,7 @@
 
 body {
   margin: 0 auto;
-  padding-top: 20px;
+  padding: 20px;
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: var(--font-default);
@@ -94,7 +94,6 @@ header h1 a:hover {
 
 div.post {
   max-width: 80%;
-  margin: 100px auto;
   padding: 2rem;
   background-color: var(--post-bg);
   border-radius: 8px;
