@@ -1,11 +1,18 @@
 :root {
+  /* BG Colors */
   --bg-color: #000;
   --content-bg: #222;
+  --post-bg: #333;
   --blockquote-bg: #444;
+
+  /* Text Colors */
   --text-color: #eee;
   --header-color: #eee;
+  --accent-color: #ffd257;
   --link-color: #edc75f;
   --link-visited: #cfad53;
+
+  /* Other */
   --hr-color: #ccc;
   --title-underline: #eee;
   --button-border: #444;
@@ -18,45 +25,6 @@ body {
   color: var(--text-color);
   font-family: 'Outfit', system-ui, sans-serif;
   line-height: 1.6;
-}
-
-/* body.light-mode {
-  --bg-color: #f9f9f9;
-  --content-bg: #fff;
-  --blockquote-bg: #f9f9f9;
-  --text-color: #111;
-  --header-color: #111;
-  --link-color: #0066cc;
-  --link-visited: #002ad1;
-  --hr-color: #999;
-  --title-underline: #111;
-  --button-border: #ddd;
-} */
-
-#main-content {
-  max-width: 85%;
-  margin: 100px auto;
-  padding: 2rem;
-  background-color: var(--content-bg);
-  border-radius: 8px;
-}
-
-header {
-  padding: 0;
-  color: var(--header-color);
-  font-family: 'Urbanist', sans-serif;
-}
-
-header a,
-header a:visited,
-header a:hover {
-  color: var(--header-color) !important;
-}
-
-header h1 {
-  font-size: 5rem;
-  margin: 0;
-  color: var(--header-color);
 }
 
 .title { 
@@ -100,3 +68,49 @@ div.blockquote {
   margin: 1em 1em auto;
   background-color: var(--blockquote-bg);
 }
+
+/* Page Layout */
+
+#main-content {
+  max-width: 95%;
+  margin: 100px auto;
+  padding: 2rem;
+  background-color: var(--content-bg);
+  border-radius: 8px;
+}
+
+header {
+  padding: 0;
+  color: var(--header-color);
+  font-family: 'Urbanist', sans-serif;
+}
+
+header a,
+header a:visited,
+header a:hover {
+  color: var(--header-color) !important;
+}
+
+header h1 {
+  font-size: 5rem;
+  margin: 0;
+  color: var(--header-color);
+}
+
+/* Post Style */
+
+div.post {
+  max-width: 80%;
+  margin: 100px auto;
+  padding: 2rem;
+  background-color: var(--post-bg);
+  border-radius: 8px;
+}
+
+div.post header {
+  color: var(--accent-color);
+  font-size: 1.5em;
+  padding: 1em;
+  text-decoration: underline;
+}
+
