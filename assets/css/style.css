@@ -105,8 +105,9 @@ div.post {
 
 div.post div.post-title {
   color: var(--accent-color);
-  font-size: 1.5em;
+  font-size: 1.5rem;
   text-align: left;
   text-decoration: underline;
+  margin-bottom: 2rem;
 }
 
