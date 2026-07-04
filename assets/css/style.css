@@ -81,7 +81,6 @@ div.blockquote {
   margin: auto;
   padding: 2rem;
   background-color: var(--content-bg);
-  border-radius: 8px;
 }
 
 header {
@@ -100,7 +99,6 @@ div.post {
   max-width: 95%;
   padding: 2rem;
   background-color: var(--post-bg);
-  border-radius: 8px;
 }
 
 div.post div.post-title {
